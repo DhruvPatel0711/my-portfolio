@@ -1,0 +1,72 @@
+.contact {
+  margin: 4rem 4rem 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: var(--card-bg);
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-body);
+  margin-top: -0.5rem;
+}
+
+.social-media {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.social-item {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-dark);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px var(--card-hover-shadow);
+  background-color: var(--card-bg-dark);
+}
+
+.social-item a {
+  font-size: 2rem;
+  color: var(--text-dark);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-item span {
+  font-size: 0.9rem;
+  color: var(--primary-dark);
+  transition: color 0.3s ease;
+}
+
+.social-item:hover {
+  transform: translateY(-5px);
+}
+
+.social-item:hover a {
+  color: var(--primary-color);
+  transform: scale(1.2);
+}
+
+.social-item:hover span {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}

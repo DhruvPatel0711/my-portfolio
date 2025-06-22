@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url('./assets/blob-scene-haikei-light.svg') no-repeat center center fixed;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+body.dark{
+  background: url('./assets/blob-scene-haikei-dark.svg') no-repeat center center fixed;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+--rich-black: #001122ff;
+--rich-black-2: #0C1E2Eff;
+--prussian-blue: #223648ff;
+--charcoal: #395162ff;
+--paynes-gray: #526E7Eff;
+--light-blue: #A4CBD5ff;
+--cadet-gray: #87ABB8ff;
+--air-force-blue: #6C8C9Aff;
+--light-blue-2: #B3DBE4ff;
+}
