@@ -36,7 +36,7 @@ export default function Header() {
     <div className="header-container">
       <header className={`header ${sticky ? "sticky" : ""}`}>
         <div className="logo">
-          <a href="\" className="logo-link">Dhruv</a>
+          <a href="\" className="logo-link" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' });setMenuOpen(false);}} >Dhruv</a>
         </div>
 
         {isMobile && (
@@ -48,10 +48,10 @@ export default function Header() {
         )}
 
         <nav className={`nav ${menuOpen && isMobile ? "show" : ""}`}>
-          <a href="\" className="nav-link" onClick={() => {window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false);}}>Home</a>
+          <a href="/" className="nav-link" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' });setMenuOpen(false);}}>Home</a>
           <a href="#about" className="nav-link" onClick={() => setMenuOpen(false)}>About</a>
-          <a href="#projects" className="nav-link" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#skills" className="nav-link" onClick={() => setMenuOpen(false)}>Skills</a>
+          <a href="#projects" className="nav-link" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#contact" className="nav-link" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
       </header>

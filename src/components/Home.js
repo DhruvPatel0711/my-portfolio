@@ -52,7 +52,7 @@ export default function Home() {
                 Crafting Digital Experiences That Inspire and Empower.
               </h1>
               <p className="aos-init-home">
-                Hi, I’m Dhruv Patel, a passionate Frontend Developer.
+                Hi, I’m Dhruv Patel, a passionate Full Stack Developer.
               </p>
             </div>
             <div className="hero-image aos-init-home-image">

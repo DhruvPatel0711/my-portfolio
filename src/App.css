@@ -2,7 +2,7 @@
   height: 100%;
 }
 
-#about,#projects,#skills,#contact{
+#about,#projects,#skills,#contact,#home{
   scroll-margin-top: 80px;
 }
 

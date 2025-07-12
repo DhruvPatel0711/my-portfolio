@@ -25,6 +25,11 @@
   color: var(--text-dark);
 }
 
+.projects-header > h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
