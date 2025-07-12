@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d7bfdb21.css",
-    "main.js": "/my-portfolio/static/js/main.adc377bc.js",
+    "main.css": "/my-portfolio/static/css/main.98bce286.css",
+    "main.js": "/my-portfolio/static/js/main.686b4d70.js",
     "static/js/488.9561f9b8.chunk.js": "/my-portfolio/static/js/488.9561f9b8.chunk.js",
     "static/media/Education.jpg": "/my-portfolio/static/media/Education.fc8bd904347c84991bb3.jpg",
     "static/media/Certificate.jpg": "/my-portfolio/static/media/Certificate.d8cdf5dbab0e6be8eeb1.jpg",
@@ -17,16 +17,16 @@
     "static/media/github.svg": "/my-portfolio/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
     "static/media/cplusplus.svg": "/my-portfolio/static/media/cplusplus.1b61d12f1e13619f72f915b0e77f83b3.svg",
     "index.html": "/my-portfolio/index.html",
-    "static/media/c.svg": "/my-portfolio/static/media/c.28c0daa976c449e525809f65fc04a068.svg",
+    "static/media/c.svg": "/my-portfolio/static/media/c.437a7e5d8b19dc7c3e3f59a018e1bfae.svg",
     "static/media/tailwindcss.svg": "/my-portfolio/static/media/tailwindcss.ed16fd90d7f5f3fac6ed89321c783b15.svg",
     "static/media/mongodb.svg": "/my-portfolio/static/media/mongodb.d930c2c4198d1000c2fb8b7d3177a44c.svg",
     "static/media/html5.svg": "/my-portfolio/static/media/html5.8e6289ed1eb0b9f348a463db8fa3e38c.svg",
-    "main.d7bfdb21.css.map": "/my-portfolio/static/css/main.d7bfdb21.css.map",
-    "main.adc377bc.js.map": "/my-portfolio/static/js/main.adc377bc.js.map",
+    "main.98bce286.css.map": "/my-portfolio/static/css/main.98bce286.css.map",
+    "main.686b4d70.js.map": "/my-portfolio/static/js/main.686b4d70.js.map",
     "488.9561f9b8.chunk.js.map": "/my-portfolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7bfdb21.css",
-    "static/js/main.adc377bc.js"
+    "static/css/main.98bce286.css",
+    "static/js/main.686b4d70.js"
   ]
 }
