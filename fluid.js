@@ -28,6 +28,7 @@ window.ga = window.ga || function() {}; // Dummy ga to prevent ReferenceErrors
 
 // Simulation section
 
+(() => {
 const canvas = document.getElementById('fluid-canvas');
 resizeCanvas();
 
@@ -1617,3 +1618,5 @@ function hashCode (s) {
     }
     return hash;
 };
+
+})();
