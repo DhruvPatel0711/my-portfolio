@@ -1493,8 +1493,10 @@ window.addEventListener('touchend', e => {
 window.addEventListener('keydown', e => {
     if (e.code === 'KeyP')
         config.PAUSED = !config.PAUSED;
-    if (e.key === ' ')
+    if (e.key === ' ') {
+        e.preventDefault(); // Prevent default page scroll
         splatStack.push(parseInt(Math.random() * 20) + 5);
+    }
 });
 
 function updatePointerDownData (pointer, id, posX, posY) {
@@ -1538,6 +1540,12 @@ function correctDeltaY (delta) {
 
 function generateColor () {
     let c = HSVtoRGB(Math.random(), 1.0, 1.0);
+    
+    // --- SAVED THEME (Deep Orange/Darker) ---
+    // let hue = 0.02 + (Math.random() * 0.06);
+    // let c = HSVtoRGB(hue, 1.0, 0.7); 
+    // ----------------------------------------
+
     c.r *= 0.15;
     c.g *= 0.15;
     c.b *= 0.15;
